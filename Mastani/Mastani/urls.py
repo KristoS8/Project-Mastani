@@ -26,6 +26,7 @@ urlpatterns = [
     path('auth/', include("auth_user.urls")),
     path('penjual/', include("seller_app.urls")),
     path('logout/', views.logout_view, name='logout'),
+    path('pembeli/', include("buyer_app.urls")),
 
     path("__reload__/", include("django_browser_reload.urls")),
 ]
