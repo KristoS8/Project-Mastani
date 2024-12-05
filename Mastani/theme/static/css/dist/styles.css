@@ -1076,6 +1076,18 @@ select {
   margin-right: 0.5rem;
 }
 
+.mt-52 {
+  margin-top: 13rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
 .block {
   display: block;
 }
@@ -1222,6 +1234,10 @@ select {
 
 .w-5 {
   width: 1.25rem;
+}
+
+.w-3\/4 {
+  width: 75%;
 }
 
 .min-w-full {
@@ -1563,6 +1579,21 @@ select {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-orange-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 186 116 / var(--tw-bg-opacity, 1));
+}
+
+.bg-purple-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(216 180 254 / var(--tw-bg-opacity, 1));
+}
+
+.bg-purple-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(192 132 252 / var(--tw-bg-opacity, 1));
 }
 
 .bg-opacity-50 {
@@ -2280,6 +2311,10 @@ select {
     margin-top: 0px;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -2399,6 +2434,14 @@ select {
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .lg\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:flex {
